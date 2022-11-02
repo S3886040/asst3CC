@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<%- include('../views/head'); %>
+
+<body>
+
+<div class="loginForm">
+  <form action="/register" method="post">
+    <h1>Register</h1>
+
+    <label for="userName">Username</label>
+    <input type="text" placeholder="Enter Username" name="user_name" class="userName" value="<%= typeof userName != 'undefined' ? userName : '' %>" required>
+    <label for="password">Email</label>
+    <input type="email" placeholder="Enter Email" name="email" value="<%= typeof email != 'undefined' ? email : '' %>" class="email" required>
+    <label for="password">Password</label>
+    <input type="password" placeholder="Enter Password" name="password" value="<%= typeof password != 'undefined' ? password : '' %>" class="password" required>
+
+    <input type="submit" value="Register" />
+    <p class="error"><%= typeof error != 'undefined' ? error : '' %></p>
+  </form>
+  <a href='/login'>Login</a>
+</div>
+</body>
+
+</html>

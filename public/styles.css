@@ -1,0 +1,30 @@
+.userName {
+  color: red;
+}
+h1 {
+  width: 500px;
+  position: relative;
+  margin: auto;
+}
+.loginForm {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  margin: auto;
+}
+.section {
+    margin-top: 100px;
+}
+.profileImg {
+    width: 120px;
+    height: 120px;
+}
+.profileBox {
+    margin-top: 100px;
+}
+.error {
+    color: red;
+}
+.messageImg {
+    max-width: 400px;
+}

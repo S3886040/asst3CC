@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<%- include('../views/head'); %>
+
+<body>
+
+<div class="loginForm">
+  <form action="/login" method="post">
+    <h1>Login to view Forum</h1>
+
+    <label for="userName">Username</label>
+    <input type="text" placeholder="Enter User Name" name="userName" class="id" required>
+    <label for="password">Password</label>
+    <input type="password" placeholder="Enter Password" name="password" class="password" required>
+
+    <button type="submit">Login</button>
+
+
+
+
+    <p class="error"><%= typeof error != 'undefined' ? error : '' %></p>
+
+  </form>
+  <a href='/register'>Register</a>
+</div>
+</body>
+
+</html>
