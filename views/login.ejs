@@ -7,7 +7,7 @@
 
 <div class="loginForm">
   <form action="/login" method="post">
-    <h1>Login to view Forum</h1>
+    <h1>Login</h1>
 
     <label for="userName">Username</label>
     <input type="text" placeholder="Enter User Name" name="userName" class="id" required>
@@ -15,10 +15,6 @@
     <input type="password" placeholder="Enter Password" name="password" class="password" required>
 
     <button type="submit">Login</button>
-
-
-
-
     <p class="error"><%= typeof error != 'undefined' ? error : '' %></p>
 
   </form>

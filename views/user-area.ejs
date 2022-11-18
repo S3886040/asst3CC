@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+<%- include('../views/navbar', {userName: user.user_name}); %>
+
+<html>
+  <%- include('../views/head'); %>
+  <body>
+    <section class="section container">
+    <p><%= user.user_name %></p>
+    <p><%= user.email %></p>
+    </section>
+  </body>
+</html>

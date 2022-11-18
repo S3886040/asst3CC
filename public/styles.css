@@ -26,5 +26,9 @@ h1 {
     color: red;
 }
 .messageImg {
-    max-width: 400px;
+    max-width: 200px;
 }
+.section {
+    margin-top: 100px;
+}
+
